@@ -130,4 +130,41 @@ h1 {
         margin: 100px auto;
         max-width: 450px;
     }
+
+    
+  }
+
+  @media screen and (max-width: 450px) {
+    .main-container {
+        text-align: center;
+        align-items: center;
+        margin: 100px auto;
+        max-width: 340px;
+        
+    }
+
+    .img-music {
+        max-width: 340px;
+    }
+
+    .description {
+        padding: 0;
+        display: inline;
+        line-height: 1.5;
+    }
+    .payment-btn {
+        margin-top: 25px;
+        padding : 16px 65px;
+    }
+
+    .content {
+        max-height: 650px;
+    }
+
+    .plan {
+        margin: 25px 30px;
+    }
+    .change-btn {
+        left: auto;
+    }
   }

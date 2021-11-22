@@ -1,0 +1,133 @@
+body {
+    background-image: url('../images/Untitled-2.jpg');
+    font-family: 'Red Hat Display', sans-serif;
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px
+}
+
+
+.main-container {
+    text-align: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.content {
+    background-color: white;
+    max-width: 450px;
+    height: 725px;
+    border-radius: 20px;
+}
+
+h6 {
+    display: inline-block;
+    font-size: 16px;
+    margin: 0;
+    
+}
+
+.description {
+    width: 370px;
+    padding: 0 40px;
+    margin-bottom: 40px;
+    color:hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+h1 {
+    display : inline-block;
+    font-weight: 900;
+    margin-top:41px;
+    color: hsl(223, 47%, 23%);
+}
+
+.img-music {
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+}
+
+.plan {
+    background-color : #F7F7F7;
+    max-width: 370px;
+    margin-left: 40px;
+    height: 80px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    padding-top: 25px;
+}
+
+.music-icon {
+    float: left;
+    padding-left: 25px;
+    
+}
+
+.plan-desc {
+    float : left;
+    padding-left: 15px;
+    
+}
+
+.payment-btn {
+    margin: auto;
+    margin-bottom: 7px;
+    display: block;
+}
+
+.change-btn {
+    position: relative;
+    top:15px;
+    left: 30px;
+    color: hsl(245, 75%, 52%);
+    margin-top: 40px;
+    text-decoration: underline;
+}
+
+.price {
+    color :  hsl(224, 23%, 55%);
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+}
+
+.payment-btn {
+    border : 0;
+    padding : 16px 95px;
+    border-radius: 15px;
+    background-color: hsl(245, 75%, 52%);
+    color : hsl(225, 100%, 98%);
+    box-shadow:  4px 4px 16px hsl(245, 69%, 68%);
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-weight:700;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.cancel-btn {
+    border:0;
+    background-color: transparent;
+    color:hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight:700;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+@media screen and (max-width: 2000px) {
+    .main-container {
+        margin: 100px auto;
+        max-width: 450px;
+    }
+  }
+
+
+  @media screen and (max-width: 1470px) {
+    .main-container {
+        text-align: center;
+        align-items: center;
+        margin: 100px auto;
+        max-width: 450px;
+    }
+  }
